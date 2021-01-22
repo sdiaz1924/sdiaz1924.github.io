@@ -9,7 +9,7 @@ tags: []
 
 Dustin Cable's <a href="https://demographics.coopercenter.org/racial-dot-map">racial dot map</a> is an American snapshot; it provides an accessible visualization of geographic distribution, population density, and racial diversity of the American people in every neighborhood in the entire country.
 
-We decided to use this idea for a project at my current job with the City of Chicago OIG that was evaluating the City's <a href="https://igchicago.org/wp-content/uploads/2020/02/OIG-JISC-Audit.pdf">Juvenile Intervention Support Center (JISC)</a>. In that report, we wanted to to visually show the demographics of the area that the JISC was serving. Below is the racial dot map utilized.
+We decided to use this idea for a project at my current job, with the City of Chicago OIG, that was evaluating the City's <a href="https://igchicago.org/wp-content/uploads/2020/02/OIG-JISC-Audit.pdf">Juvenile Intervention Support Center (JISC)</a>. In that report, we wanted to to visually show the demographics of the area that the JISC was serving. Below is the racial dot map utilized.
 
 ![Chicago Racial Dot Map]({{site.baseurl}}/assets/img/chicago_racial_dot/chicago_racial_dot.png)
 
