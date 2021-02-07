@@ -1,0 +1,25 @@
+I"�<p>Anyone from Chicago is well aware of the current surge in carjackings across the City. Several local news outlets have highlighted the issue in recent weeks. The City Council Public Safety Committee held a <a href="https://vimeo.com/user100351763/review/503215814/a40f1d1a97?sort=lastUserActionEventDate&amp;direction=desc">public hearing</a> to discuss what could be done to address the issue. There is even a community run Facebook group, <a href="https://www.facebook.com/groups/chicagostolencardirectory">called The Chicago Stolen Car Directory</a>, that is helping Chicago residents retrieve their stolen cars. According to <a href="https://blockclubchicago.org/2021/02/03/with-car-heists-at-record-levels-citizen-sleuths-take-to-facebook-to-recover-stolen-cars/">Block Club Chicago</a>, the group has helped recover more than 200 cars in December and January.</p>
+
+<p>I got curious to see what long term trends for carjackings in Chicago look like, and I figured this would be a good opportunity to practice some data visualizations skills. To do this I gathered <a href="">crime data</a> from the <a href="">Chicago’s Data Portal</a>. They have crime data available that goes as far back as 2001. Just a quick caveat, crime data from Chicago’s Data Portal may differ slightly from numbers the Chicago Police Department(CPD) may report. If there are differences in my numbers versus what CPD has reported to news outlets, that is likely the cause.</p>
+
+<p>First, I wanted to see what the City’s violent crime rate has looked like over the years. According to the <a href="">National Institute of Justice</a>, violent crime is defined as, an incident where a victim is harmed by or threatened by violence. Violent crimes include rape and sexual assault, robbery, assault and murder. I filtered the crime data to only include these types of offenses.</p>
+
+<p>To calculate a violent crime rate, we need population data. I gathered population data from the U.S. Census Bureau. I calculated a violent crime rate per 100,000 residents. This basically means that for every 100,000 residents, X amount of violent crimes happened. To calculate this figure you divide the number of violent crimes by the total population, then multiply the result by 100,000.</p>
+
+<iframe src="/assets/img/interactive_maps/chicago_reported_crime.html" height="500px" width="100%"></iframe>
+<p>(Hover over the figure to get rates for each year)</p>
+
+<p>Chicago’s violent crime rate has been generally declining since 2001. There’s a point where it trends upwards between 2015-2017 but it then trends downwards after that. This general trend is not surprising since crime has <a href="https://www.pewresearch.org/fact-tank/2020/11/20/facts-about-crime-in-the-u-s/ft_20-11-12_crimeintheus_2/">generally declined across the U.S. since the 90’s</a>.</p>
+
+<p>Moving on to vehicle theft in Chicago, I want to start by making a key distinction. Vehicular hijacking (“carjacking”) is considered a form of robbery, but there is also another related crime referred to as motor vehicle theft. <a href="https://www.ilga.gov/legislation/ilcs/ilcs4.asp?ActID=1876&amp;ChapterID=53&amp;SeqStart=62600000&amp;SeqEnd=63400000#:~:text=Vehicular%20hijacking.,the%20imminent%20use%20of%20force.">Vehicular hijacking</a> in Illinois is defined as the act of knowingly taking a motor vehicle from the person or the immediate precennce of another by the use of force or by threatening the imminent use of force. <a href="https://ucr.fbi.gov/crime-in-the-u.s/2010/crime-in-the-u.s.-2010/property-crime/mvtheftmain">Motor vehicle theft</a> is defined as the theft or attempted theft of a motor vehicle (i.e. breaking into a car to steal it). I was initially confused by the two when going through the data so I figured it would be worth explaining.</p>
+
+<iframe src="/assets/img/interactive_maps/chicago_reported_mvt.html" height="500px" width="100%"></iframe>
+<p>(Hover over the figure to get rates for each year)</p>
+
+<p>For reference, motor vehicle theft in Chicago is on a downwards trend between 2001-2020. So what about “carjackings”?</p>
+
+<iframe src="/assets/img/interactive_maps/chicago_reported_carjack.html" height="500px" width="100%"></iframe>
+<p>(Hover over the figure to get rates for each year)</p>
+
+<p><a href=""> </a></p>
+:ET
