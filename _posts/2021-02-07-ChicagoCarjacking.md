@@ -27,7 +27,7 @@ For reference, motor vehicle theft in Chicago is on a downwards trend between 20
 
 <iframe src="/assets/img/interactive_maps/chicago_reported_carjack.html" height="500px" width="100%"></iframe>(Hover over the figure to get rates for each year)
 
-Trends for carjackings in Chicago are interesting. They begin to trend upwards between 2015-2017, then trend downwards between 2017-2019, and spike up dramatically in 2020. So where did carjackings happen in Chicago in 2020? They seem to have occurred disproportionately on the South and West sides of the City but the North Side has also had its fair share.
+Trends for carjackings in Chicago are interesting. They begin to trend upwards between 2015-2017, then trend downwards between 2017-2019, and spike up dramatically in 2020. So where did carjackings happen in Chicago in 2020? They seem to have occurred disproportionately on the South and West sides of the City but the North Side has also had it's fair share.
 
 <iframe src="/assets/img/interactive_maps/chicago_reported_carjack_map.html" height="500px" width="100%"></iframe>
 
